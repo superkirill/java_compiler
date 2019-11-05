@@ -1,0 +1,100 @@
+lexemes = {
+    "TIdentifier" : 1,
+    # Key words
+    "TIf" : 2,
+    "TElse" : 3,
+    "TClass" : 4,
+    "TInt" : 5,
+    "TBoolean" : 6,
+    "TMain" : 7,
+    "TTrue" : 8,
+    "TFalse" : 9,
+    "TVoid" : 71,
+    # Punctuation signs
+    "TLeftParenthesis" : 10,
+    "TRightParenthesis" : 11,
+    "TLeftBrace" : 12,
+    "TRightBrace" : 13,
+    "TSemicolon" : 20,
+    "TPeriod" : 21,
+    "TComma" : 22,
+    # Constants
+    "TIntegerConstant" : 30,
+    # Operators
+    "TAddition" : 40,
+    "TSubstraction" : 41,
+    "TMultiplication" : 42,
+    "TDivision" : 43,
+    "TModulus" : 44,
+    "TEqualTo" : 45,
+    "TNotEqualTo" : 46,
+    "TBitwiseXor" : 47,
+    "TLogicalAnd" : 48,
+    "TLogicalOr" : 49,
+    "TLogicalNot" : 50,
+    "TAssign" : 51,
+    "TEnd" : 60,
+    "Terr" : 70,
+}
+
+nonterminal_symbols = {
+    "S" : 101,
+    "A" : 102,
+    "B" : 103,
+    "C" : 104,
+    "D" : 105,
+    "E" : 106,
+    "F" : 107,
+    "G" : 108,
+    "G1" : 109,
+    "H" : 110,
+    "P" : 111,
+    "P1" : 112,
+    "R" : 113,
+    "T" : 114,
+    "T1" : 115,
+    "U" : 116,
+    "X" : 117,
+    "X1" : 118,
+    "Y" : 119,
+    "Y1" : 120,
+    "W1" : 121,
+    "W2" : 122,
+    "W21" : 123,
+    "W3" : 124,
+    "W31" : 125,
+    "W4" : 126,
+    "W41" : 127,
+    "W5" : 128,
+    "W51" : 129,
+    "W6" : 130,
+    "W61" : 131,
+    "W7" : 132,
+    "W71" : 133,
+    "W8" : 134,
+    "Z" : 135,
+    "Z1" : 136
+}
+
+key_words = {
+    "if" : "TIf",
+    "else" : "TElse",
+    "main" : "TMain",
+    "class" : "TClass",
+    "true" : "TTrue",
+    "false" : "TFalse",
+    "int" : "TInt",
+    "boolean" : "TBoolean",
+    "void" : "TVoid"
+}
+
+object_type = {
+    "ObjConst" : 1,
+    "ObjBoolean" : 2,
+    "ObjInt" : 3,
+    "ObjClass" : 4,
+    "ObjFun" : 5,
+    "ObjUnknown" : 6,
+}
+
+MAX_NODES = 100 # Max number of nodes in a tree
